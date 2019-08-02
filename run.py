@@ -1,4 +1,9 @@
-
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#
+# 修改者：何智翔
+# 描述：obamanet的demo
+# ==============================================================================
 from keras.models import Sequential
 from keras.layers import Dense, LSTM, Dropout, Embedding, Lambda, TimeDistributed
 import keras.backend as K
